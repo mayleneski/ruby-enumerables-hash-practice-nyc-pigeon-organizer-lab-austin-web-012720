@@ -14,7 +14,6 @@ def nyc_pigeon_organizer(data)
 #Then we want to iterate over the array
   
       array.each do |name|
-        binding.pry
         if !pigeon_list[name]
           pigeon_list[name] = {}
         end
