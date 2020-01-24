@@ -1,12 +1,12 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
-binding.pry  
+
 #iterate through the keys (:color, :gender, and :lives) first
 #line 8 block parameters returns the keys inside of the value of :color, :gender, :lives 
   
   data.each do |first_order_keys, value|
-  
+  binding.pry
 #This block will iterate over the second order keys and return the elements in the arrays (that are the values) 
     
     value.each do |second_order_keys, array|
