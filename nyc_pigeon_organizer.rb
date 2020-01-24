@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
   
       array.each do |name|
         binding.pry
-        if pigeon_list[name] == nil
+        if !pigeon_list[name]
           pigeon_list[name] = {}
         end
         
