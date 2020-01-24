@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
         
  #The next line of code will assign the first order keys inside the name value hashes to an empty arrays
  
-        if pigeon_list[name][first_order_keys] == nil
+        if !pigeon_list[name][first_order_keys]
           pigeon_list[name][first_order_keys] = []
         end
         
