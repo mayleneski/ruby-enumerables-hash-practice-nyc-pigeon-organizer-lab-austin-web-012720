@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
 #This block will iterate over the second order keys and return the elements in the arrays (that are the values) 
     
     value.each do |second_order_keys, array|
-      
+     binding.pry 
 #Then we want to iterate over the array
   
       array.each do |name|
